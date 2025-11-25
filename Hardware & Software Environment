@@ -1,0 +1,11 @@
+GPU: NVIDIA RTX 2080 Ti
+CPU: Intel® Core™ i9-9900K @ 3.60 GHz
+RAM: 64 GB
+OS: Windows 10 (or Ubuntu 20.04, whichever you used)
+Python: 3.9
+TensorFlow: 2.11
+CUDA: 11.3
+cuDNN: 8.x
+Key libraries:
+numpy, pandas, matplotlib, scikit-learn, seaborn, scipy
+tensorflow-addons (if used)
