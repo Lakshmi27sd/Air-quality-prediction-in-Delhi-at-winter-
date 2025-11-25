@@ -3,9 +3,6 @@
 Supplementary Materials — Reproducibility
 Contents:
 - train_centralized.py  : multi-output C-TL-LSTM-MHA script
-- train_univariate.py   : single-pollutant baseline script
-- eval_and_time.py      : timing driver for reproducibility
-- timings/              : raw per-run timings and summary CSVs
 - environment.txt       : hardware & software details
 - requirements.txt      : Python dependencies
 - timing_procedure.txt  : how timings were measured
