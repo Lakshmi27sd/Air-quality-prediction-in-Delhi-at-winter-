@@ -1,0 +1,5 @@
+Wall-clock times were measured using Python’s time.perf_counter() around the complete model.fit() call. 
+For the baseline, five univariate models (PM₂.₅, PM₁₀, NO₂, CO, SO₂) were trained sequentially with identical hyperparameters and epochs. 
+The total baseline time equals the sum of those five runs. The centralized C-TL-LSTM-MHA model was trained once as a multi-output network. 
+Each configuration was run three times (N = 3); mean ± SD values are reported in per_model_summary.csv.
+model,run_id,elapsed_seconds PM25,run1,2.13 PM25,run2,2.12 ... centralized,run1,8.25 centralized,run2,8.23 centralized,run3,8.24
